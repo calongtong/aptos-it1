@@ -48,7 +48,7 @@ mkdir -p $HOME/.aptos
 cd $HOME/.aptos
 #wget -O docker-compose.yaml https://raw.githubusercontent.com/aptos-labs/aptos-core/main/docker/compose/aptos-node/docker-compose.yaml
 #wget -O docker-compose-fullnode.yaml https://raw.githubusercontent.com/aptos-labs/aptos-core/main/docker/compose/aptos-node/docker-compose-fullnode.yaml
-wget -O docker-compose-fullnode.yaml https://raw.githubusercontent.com/calongtong/aptos-it1/main/docker-compose.yaml
+wget -O docker-compose.yaml https://raw.githubusercontent.com/calongtong/aptos-it1/main/docker-compose.yaml
 
 wget -O validator.yaml https://raw.githubusercontent.com/aptos-labs/aptos-core/main/docker/compose/aptos-node/validator.yaml
 #wget -O fullnode.yaml https://raw.githubusercontent.com/aptos-labs/aptos-core/main/docker/compose/aptos-node/fullnode.yaml
